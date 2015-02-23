@@ -42,6 +42,5 @@ shinyServer(function(input, output) {
       } 
     }
     cbind(temp_df[,-3], EstimatedPrice=prices)
-  },  
-  options=list(paging=FALSE))
+  })
 })
